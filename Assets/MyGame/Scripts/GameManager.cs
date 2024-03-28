@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         _playManager = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerManager>();
+        AudioManager.Instance.BackGroundMusic();
     }
 
     // Update is called once per frame

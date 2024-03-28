@@ -19,5 +19,6 @@ void Start()
     void UpdateScene()
     {
         SceneManager.LoadScene(level);
+        AudioManager.Instance.SoundEffectMusic();
     }
 }
